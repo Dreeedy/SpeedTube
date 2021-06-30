@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "SpeedTube",
+	"description": "Мое расширение. Ускорение вопроизведения видое на ютубе.",
+	"version": "1.0",
+	"icons": {
+      "128": "icon_16.png",
+      "128": "icon_32.png",
+      "128": "icon_48.png",
+      "128": "icon_128.png"
+    },
+	"browser_action": {
+      "default_icon": "icon_128.png",
+      "default_popup": "popup.html"
+    },
+	"content_scripts": [
+		{
+			"matches": [
+				"https://www.youtube.com/*"
+			],
+			"js": ["jquery.min.js", "script.js"]
+		}
+	]
+	
+}
