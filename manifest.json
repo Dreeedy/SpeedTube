@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
 	"name": "SpeedTube",
-	"description": "Мое расширение. Ускорение вопроизведения видое на ютубе.",
-	"version": "1.0",
+	"description": "Изменение скорости воспроизведения видео на youtube",
+	"version": "1.1",
 	"icons": {
       "128": "icon_16.png",
       "128": "icon_32.png",
