@@ -4,13 +4,13 @@
 	"description": "Изменение скорости воспроизведения видео на youtube",
 	"version": "1.1",
 	"icons": {
-      "128": "icon_16.png",
-      "128": "icon_32.png",
-      "128": "icon_48.png",
-      "128": "icon_128.png"
+      "16": "images/icon_16.png",
+      "32": "images/icon_32.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
     },
 	"browser_action": {
-      "default_icon": "icon_128.png",
+      "default_icon": "images/icon_128.png",
       "default_popup": "popup.html"
     },
 	"content_scripts": [
@@ -18,7 +18,7 @@
 			"matches": [
 				"https://www.youtube.com/*"
 			],
-			"js": ["jquery.min.js", "script.js"]
+			"js": ["js/jquery.min.js", "js/main.js"]
 		}
 	]
 	
